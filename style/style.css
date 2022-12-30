@@ -11,8 +11,6 @@ html{
 }
 
 body{
-  background-color: #000;
-  color: #FFF;
   font-family: 'Anton', sans-serif;
 }
 
@@ -32,7 +30,14 @@ li{
 }
 
 .header{
-  
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.header,
+.main{
+  color: #FFF;
 }
 
 .nav{
@@ -41,7 +46,7 @@ li{
   text-transform: uppercase;
   align-items: center;
   text-align: center;
-   margin-top: 40px;
+  margin-top: 40px;
 }
 
 .nav-list{
@@ -59,11 +64,39 @@ li{
   margin-right: 30px;
 }
 
+.nav-item,
+.promo__inner-text{
+  letter-spacing: 0.1em;
+}
+
 .link-number{
   font-size: 16px;
 }
 
-/*
+.promo{
+  background: linear-gradient(105.89deg, rgba(0, 0, 0, 0.37) 5.05%, rgba(0, 0, 0, 0.15) 112.97%);
+  background-image: url(../images/header-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
 
+.promo__inner{
+  min-height: 100vh;
+  text-transform: uppercase;
+  font-weight: 400;
+  align-items: center;
+}
+
+.promo__inner-text{
+  font-size: 30px;
+  font-weight: inherit;
+}
+
+.promo__inner-title{
+  font-size: 100px;
+ font-weight: inherit;
+}
+/*
 font-family: 'Open Sans', sans-serif;
 */
