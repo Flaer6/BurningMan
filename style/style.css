@@ -13,6 +13,7 @@ html{
 body{
   background-color: #000;
   color: #FFF;
+  font-family: 'Anton', sans-serif;
 }
 
 a{
@@ -25,7 +26,7 @@ li{
 }
 
 .container{
-  max-width: 1220px;
+  max-width: 1190px;
   padding: 0 10px;
   margin: 0 auto;
 }
@@ -40,9 +41,29 @@ li{
   text-transform: uppercase;
   align-items: center;
   text-align: center;
+   margin-top: 40px;
 }
 
 .nav-list{
   display: flex;
   gap: 0 40px;
+  font-size: 14px;
 }
+
+.nav-item{
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo{
+  margin-right: 30px;
+}
+
+.link-number{
+  font-size: 16px;
+}
+
+/*
+
+font-family: 'Open Sans', sans-serif;
+*/
